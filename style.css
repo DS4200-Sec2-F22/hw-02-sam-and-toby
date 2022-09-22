@@ -18,3 +18,24 @@ table, th, td {
 th {
     background-color: blue;
 }
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+}
+.circle:hover{
+    stroke: black;
+    stroke-width: 5;
+}
+.rect:hover{
+    fill: green;
+}
